@@ -75,7 +75,7 @@ dfAnime$Type <- "Anime"
 dfManga$Type <- "Manga
 dfConcat <- rbind(dfManga,dfAnime)
 View(dfConcat)
-write.table(x = dfConcat, file = "C:/Users/DELL/Downloads/ExportTp1.csv","," sep = ";", row.names = FALSE)
+write.table(x = dfConcat, file = "C:/Users/DELL/Downloads/ExportTp1.csv" sep = ";", row.names = FALSE)
 
 
 
